@@ -104,7 +104,7 @@ while True:
         else:
             title = f"Computer thinking..."
         title = largeFont.render(title, True, white)
-        title Rect = title.get_rect()
+        titleRect = title.get_rect()
         titleRect.center = ((width / 2), 30)
         screen.blit(title, titleRect)
 
