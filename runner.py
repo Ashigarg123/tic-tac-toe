@@ -1,7 +1,7 @@
 import pygame
 import sys
 import time
-
+from pygame.locals import *
 import tictactoe as ttt
 pygame.init()
 size = width, height = 600, 400
